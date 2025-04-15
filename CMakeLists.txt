@@ -11,6 +11,7 @@ add_executable(bot
 # link libraries
 target_link_libraries(bot
     dpp
+    cpr
 )
 
 # set c++ version
