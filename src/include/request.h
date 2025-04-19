@@ -1,5 +1,5 @@
-#ifndef REQUEST
-#define REQUEST
+#ifndef REQUEST_H
+#define REQUEST_H
 
 #include <cpr/cpr.h>
 #include <string.h>

@@ -7,6 +7,8 @@ project(BotDiscord DESCRIPTION "Discord bot to learn D++ library")
 add_executable(bot
     src/main.cpp
 )
+# link header files
+target_include_directories(bot PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 
 # link libraries
 target_link_libraries(bot
